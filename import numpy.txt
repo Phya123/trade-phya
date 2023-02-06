@@ -45,7 +45,7 @@ import alpaca_trade_api as tradeapi
 
 # Replace with your API key
 
-api = tradeapi.REST('APCA-API-KEY-ID', 'APCA-API-SECRET-KEY', base_url='https://paper-api.alpaca.markets')
+api = tradeapi.REST('AK93JAU199M1KEIBI7U9', 'bdexVx6NV4pA48QdqeLAbJb93tAIqZ0pdGlAk7Gl', base_url='https://paper-api.alpaca.markets')
 
 # Retrieve the historical data for a stock
 
@@ -74,7 +74,7 @@ import alpaca_trade_api as tradeapi
 
 # Replace with your API key
 
-api = tradeapi.REST('APCA-API-KEY-ID', 'APCA-API-SECRET-KEY', base_url='https://paper-api.alpaca.markets')
+api = tradeapi.REST('AK93JAU199M1KEIBI7U9', 'bdexVx6NV4pA48QdqeLAbJb93tAIqZ0pdGlAk7Gl', base_url='https://paper-api.alpaca.markets')
 
 # Retrieve the historical data for a stock
 
@@ -92,7 +92,7 @@ for bar in aapl_bars:
 
 
 # Load the stock data
-df = pd.read_csv("Yahoo_stock_data.csv")
+df = pd.read_csv("https://api.alpaca.markets")
 
 # Scale the data
 scaler = MinMaxScaler(feature_range=(0, 1))
